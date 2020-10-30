@@ -31,6 +31,14 @@ body.body-page {
     --applechic: #c7f464;
     --cheerypink: #ff6b6b;
     --grandmapink: #c44d58;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yelow: #f1fa8c;
+    --background: #282a36;
     --schoolbell: "Schoolbell", cursive;
     --quatrocen: "Quattrocento Sans", sans-serif;
 }
@@ -107,7 +115,6 @@ a:hover {
 
 .hero-princ-container .gif-animated {
     border-radius: 50%;
-    size: 10em;
 }
 
 .hero-princ-content.text {
@@ -131,7 +138,7 @@ a:hover {
 
 .hero-princ .social-media a {
     font-size: 25px;
-    color: var(--cheerypink);
+    color: var(--pink);
 }
 
 .hero-princ-container .social-media .li-smedia {
