@@ -107,17 +107,19 @@ a:hover {
 
 .hero-princ-container .gif-animated {
     border-radius: 50%;
+    size: 10em;
 }
 
 .hero-princ-content.text {
     margin-top: 2rem;
 }
 
-.hero-princ-content.text .title::after {
+
+/* .hero-princ-content.text .title::after {
     content: "(Miauchis)";
     font-size: 25px;
     font-family: var(--schoolbell);
-}
+} */
 
 
 /* Social Media Main Hero
