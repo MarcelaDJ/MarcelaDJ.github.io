@@ -443,26 +443,6 @@ a:hover {
     color: var(--mightygray);
 }
 
-.hero-contact-container .emailme {
-    padding-top: 1rem;
-}
-
-.hero-contact-container .emailme a {
-    color: var(--mightygray);
-    font-weight: 500;
-}
-
-
-/**************************************************************************************************/
-
-
-/* Blog
-/*********************************/
-
-.hero.blog {
-    background-color: #f8f8f8;
-}
-
 
 /**************************************************************************************************/
 
