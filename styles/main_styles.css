@@ -418,7 +418,7 @@ a:hover {
 /*********************************/
 
 .hero-contact {
-    background-image: linear-gradient( 141deg, var(--grandmapink) 0%, var(--cheerypink) 100%);
+    background-image: linear-gradient( 141deg, var(--purple) 30%, var(--cheerypink) 70%);
     color: #ffffff;
 }
 
