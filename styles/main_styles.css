@@ -269,7 +269,42 @@ a:hover {
 }
 
 
-/**************************************************************************************************/
+/*  Education
+/**********************************************/
+
+.container-subclass {
+    align-content: center;
+}
+
+.container-subclass h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 130px 1fr 130px 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.grid-item img {
+    padding-left: 50px;
+}
+
+#studieitem h4 {
+    margin-left: 60px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#studieitem p {
+    margin-left: 60px;
+    font-size: 1.082rem;
+}
 
 
 /* Projects
@@ -565,6 +600,7 @@ a:hover {
     }
     .title.is-3 {
         font-size: 1.5rem;
+        margin-top: 25px;
     }
     .subtitle.is-4 {
         font-size: 1.4rem;
@@ -618,5 +654,37 @@ a:hover {
     }
     .show-t {
         display: none;
+    }
+    /* Education 
+  /*********************************/
+    .container-subclass {
+        margin-left: 0px;
+        align-content: center;
+    }
+    .container-subclass h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 30px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto;
+        grid-gap: 30px;
+        align-items: center;
+        justify-content: end;
+    }
+    .grid-item img {
+        padding-left: 30px;
+    }
+    #studieitem h4 {
+        margin-left: 0px;
+        font-size: 1.25rem;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    #studieitem p {
+        margin-left: 0px;
+        font-size: 1.082rem;
     }
 }
