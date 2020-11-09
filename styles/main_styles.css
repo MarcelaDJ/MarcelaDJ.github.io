@@ -589,6 +589,7 @@ a:hover {
     }
     .title.is-3 {
         font-size: 1.5rem;
+        margin-top: 25px;
     }
     .subtitle.is-4 {
         font-size: 1.4rem;
@@ -657,11 +658,17 @@ a:hover {
         justify-content: end;
     }
     .grid-item img {
-        padding-left: 10px;
+        padding-left: 30px;
     }
     #studieitem h4 {
         font-size: 1.25rem;
         margin-bottom: 0px;
         font-weight: bold;
+    }
+    #studieitem p {
+        font-size: 1.082rem;
+    }
+    #carrer p {
+        font-size: 1.082rem;
     }
 }
