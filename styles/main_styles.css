@@ -123,6 +123,10 @@ a:hover {
     margin-top: 2rem;
 }
 
+.hero-princ-content.text .subtitle {
+    text-align: center;
+}
+
 
 /* .hero-princ-content.text .title::after {
     content: "(Miauchis)";
