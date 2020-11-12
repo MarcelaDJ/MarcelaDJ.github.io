@@ -110,7 +110,6 @@ a:hover {
 .hero-princ {
     background-size: cover;
     background-image: url("https://image.freepik.com/vector-gratis/fondo-galaxia-realista_52683-12122.jpg");
-    /* background-image: linear-gradient( 141deg, var(--purple) 30%, var(--cheerypink) 70%); */
     background-color: var(--mightygray);
     color: #ffffff;
 }
@@ -122,8 +121,6 @@ a:hover {
 .hero-princ-content.text {
     margin-top: 2rem;
 }
-
-section.hero-body {}
 
 
 /* .hero-princ-content.text .title::after {
