@@ -63,10 +63,14 @@ a:hover {
     margin: 0;
 }
 
-.col-1,
-.col-2 {
-    width: 50%;
+
+/* .col-1 {
+    width: 30%;
 }
+
+.col-2 {
+    width: 70%;
+} */
 
 .fullheight {
     height: 100vh;
@@ -176,7 +180,10 @@ a:hover {
 /*********************************/
 
 .about-columns {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row
+    /* height: 100vh; */
 }
 
 .about-columns .col-1 {
@@ -186,9 +193,15 @@ a:hover {
     top: 0;
     bottom: 0;
     height: 100vh;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .about-columns .col-2 {
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
     background-color: #ffffff;
 }
 
