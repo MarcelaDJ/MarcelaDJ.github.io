@@ -41,6 +41,7 @@ body.body-page {
     --background: #282a36;
     --schoolbell: "Schoolbell", cursive;
     --quatrocen: "Quattrocento Sans", sans-serif;
+    --handlee: 'Handlee', cursive;
 }
 
 a {
@@ -178,7 +179,8 @@ a:hover {
 
 .about-columns {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    font-family: var(--handlee);
 }
 
 .about-columns .col-1 {
@@ -188,6 +190,7 @@ a:hover {
     top: 0;
     bottom: 0;
     height: 100vh;
+    font-family: var(--quatrocen);
     flex-basis: 200px;
     flex-grow: 1;
     flex-shrink: 0;
