@@ -63,15 +63,6 @@ a:hover {
     margin: 0;
 }
 
-
-/* .col-1 {
-    width: 30%;
-}
-
-.col-2 {
-    width: 70%;
-} */
-
 .fullheight {
     height: 100vh;
 }
@@ -180,10 +171,8 @@ a:hover {
 /*********************************/
 
 .about-columns {
-    /* position: relative; */
     display: flex;
     flex-direction: row
-    /* height: 100vh; */
 }
 
 .about-columns .col-1 {
@@ -209,12 +198,42 @@ a:hover {
     padding: 2rem 7% 2rem 2rem;
 }
 
-.about-img {
+
+/* .about-columns .about-content h5 {
+    text-align: right;
+} */
+
+
+/* .about-columns .about-content h5:nth-child(1) {
+    direction: ltr;
+}*/
+
+#playing {
+    float: left;
+    width: 19%;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+#learning {
+    float: right;
+    width: 30%;
+    margin-left: 20px
+}
+
+#home {
+    margin-right: 20px;
+    float: left;
+    width: 30%;
+}
+
+
+/* .about-img {
     width: 200px;
     height: 200px;
     display: flex;
     margin: auto;
-}
+} */
 
 
 /**************************************************************************************************/
