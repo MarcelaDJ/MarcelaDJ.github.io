@@ -41,6 +41,7 @@ body.body-page {
     --background: #282a36;
     --schoolbell: "Schoolbell", cursive;
     --quatrocen: "Quattrocento Sans", sans-serif;
+    --handlee: 'Handlee', cursive;
 }
 
 a {
@@ -51,7 +52,6 @@ a {
 
 a:hover {
     color: var(--grandmapink);
-    text-decoration: underline;
 }
 
 .columns {
@@ -63,13 +63,15 @@ a:hover {
     margin: 0;
 }
 
-.col-1,
-.col-2 {
-    width: 50%;
-}
-
 .fullheight {
     height: 100vh;
+}
+
+.freepick {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: small;
 }
 
 
@@ -92,6 +94,7 @@ a:hover {
     border: none;
     background-color: #ccc;
     padding: 0.4rem;
+    margin-right: 0, 5rem;
     color: #4a4a4a;
     border-radius: 4px;
 }
@@ -108,7 +111,8 @@ a:hover {
 /*********************************/
 
 .hero-princ {
-    /* background-image: linear-gradient(141deg, var(--cardetgrey) 0%, var(--cambridgeblue) 100%); */
+    background-size: cover;
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-galaxia-realista_52683-12122.jpg");
     background-color: var(--mightygray);
     color: #ffffff;
 }
@@ -119,6 +123,10 @@ a:hover {
 
 .hero-princ-content.text {
     margin-top: 2rem;
+}
+
+.hero-princ-content.text .subtitle {
+    text-align: center;
 }
 
 
@@ -170,18 +178,35 @@ a:hover {
 /*********************************/
 
 .about-columns {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--handlee);
 }
 
 .about-columns .col-1 {
-    background-image: linear-gradient( 141deg, var(--pacifica) 0%, var(--applechic) 100%);
+    background-image: url("../src/images/espacio_vectores.png"), linear-gradient( 141deg, var(--background) 10%, var(--purple) 55%, var(--cyan) 100%);
+    background-size: contain;
     position: sticky;
     top: 0;
     bottom: 0;
     height: 100vh;
+    font-family: var(--quatrocen);
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.about-columns .col-1 ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 1rem 1rem;
 }
 
 .about-columns .col-2 {
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
     background-color: #ffffff;
 }
 
@@ -189,12 +214,32 @@ a:hover {
     padding: 2rem 7% 2rem 2rem;
 }
 
-.about-img {
+#playing {
+    float: left;
+    width: 19%;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+#learning {
+    float: right;
+    width: 30%;
+    margin-left: 20px
+}
+
+#home {
+    margin-right: 20px;
+    float: left;
+    width: 30%;
+}
+
+
+/* .about-img {
     width: 200px;
     height: 200px;
     display: flex;
     margin: auto;
-}
+} */
 
 
 /**************************************************************************************************/
@@ -288,7 +333,6 @@ a:hover {
     grid-template-rows: auto;
     grid-gap: 30px;
     align-items: center;
-    justify-content: end;
 }
 
 .grid-item img {
@@ -476,6 +520,10 @@ a:hover {
 .hero-contact-container .social-media a {
     font-size: 50px;
     color: var(--mightygray);
+}
+
+.contact-footer a {
+    text-align: center;
 }
 
 
