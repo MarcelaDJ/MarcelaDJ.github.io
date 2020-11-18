@@ -51,7 +51,6 @@ a {
 
 a:hover {
     color: var(--grandmapink);
-    text-decoration: underline;
 }
 
 .columns {
@@ -65,6 +64,13 @@ a:hover {
 
 .fullheight {
     height: 100vh;
+}
+
+.freepick {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: small;
 }
 
 
@@ -187,6 +193,13 @@ a:hover {
     flex-shrink: 0;
 }
 
+.about-columns .col-1 ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 1rem 1rem;
+}
+
 .about-columns .col-2 {
     flex-basis: 300px;
     flex-grow: 2;
@@ -197,16 +210,6 @@ a:hover {
 .about-columns .about-content {
     padding: 2rem 7% 2rem 2rem;
 }
-
-
-/* .about-columns .about-content h5 {
-    text-align: right;
-} */
-
-
-/* .about-columns .about-content h5:nth-child(1) {
-    direction: ltr;
-}*/
 
 #playing {
     float: left;
@@ -514,6 +517,10 @@ a:hover {
 .hero-contact-container .social-media a {
     font-size: 50px;
     color: var(--mightygray);
+}
+
+.contact-footer a {
+    text-align: center;
 }
 
 
