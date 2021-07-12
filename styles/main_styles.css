@@ -379,7 +379,7 @@ a:hover {
 }
 
 .column.project .img-container::after {
-    content: url(../src/icons/eye.png);
+    content: url(../src/icons/cursor-pointer-hand.png);
     position: absolute;
     top: 46%;
     left: 50%;
