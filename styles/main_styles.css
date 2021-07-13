@@ -523,6 +523,10 @@ a:hover {
     color: var(--mightygray);
 }
 
+.contact-footer p {
+    text-align: center;
+}
+
 .contact-footer a {
     text-align: center;
 }
