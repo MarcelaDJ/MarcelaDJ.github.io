@@ -38,6 +38,7 @@ body.body-page {
     --purple: #bd93f9;
     --red: #ff5555;
     --yelow: #f1fa8c;
+    --darkpurple: #9c27b0;
     --background: #282a36;
     --schoolbell: "Schoolbell", cursive;
     --quatrocen: "Quattrocento Sans", sans-serif;
@@ -46,7 +47,7 @@ body.body-page {
 
 a {
     text-decoration: none;
-    color: var(--cheerypink);
+    color: var(--darkpurple);
     font-weight: bold;
 }
 
@@ -184,7 +185,7 @@ a:hover {
 }
 
 .about-columns .col-1 {
-    background-image: url("../src/images/espacio_vectores.png"), linear-gradient( 141deg, var(--background) 10%, var(--purple) 55%, var(--cyan) 100%);
+    background-image: url("../src/images/background/espacio_vectores.png"), linear-gradient( 141deg, var(--background) 10%, var(--purple) 55%, var(--cyan) 100%);
     background-size: contain;
     position: sticky;
     top: 0;
@@ -378,7 +379,7 @@ a:hover {
 }
 
 .column.project .img-container::after {
-    content: url(../src/icons/eye.png);
+    content: url(../src/icons/cursor-pointer-hand.png);
     position: absolute;
     top: 46%;
     left: 50%;
@@ -433,7 +434,7 @@ a:hover {
     border-radius: 8px;
     background-color: #ffffff;
     margin: 2rem;
-    border: 1px solid var(--cheerypink);
+    border: 2px solid var(--purple);
     transition: all 0.5s ease-in-out;
 }
 
@@ -441,21 +442,21 @@ a:hover {
     background-color: #ffffff;
     border-radius: 50%;
     padding: 0.2rem 1rem;
-    color: var(--cheerypink);
+    color: var(--purple);
     font-size: 25px;
     position: absolute;
     top: 0;
     transform: translate(-50%);
     left: 50%;
     margin-top: 13px;
-    border: 1px solid var(--cheerypink);
+    border: 1px solid var(--purple);
     text-decoration: none;
     transition: all 0.2s;
 }
 
 .close.project:hover {
-    border: 1px solid var(--cheerypink);
-    background-color: var(--cheerypink);
+    border: 1px solid var(--purple);
+    background-color: var(--purple);
     color: #ffffff;
 }
 
@@ -520,6 +521,10 @@ a:hover {
 .hero-contact-container .social-media a {
     font-size: 50px;
     color: var(--mightygray);
+}
+
+.contact-footer p {
+    text-align: center;
 }
 
 .contact-footer a {
