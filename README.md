@@ -12,6 +12,9 @@
 * Los accesos directos a las redes y correos electronicos donde pueden contactarme
 * Un entorno bello e inspirador donde se mezcle la tecnologia, los gatos y el espacio!!
 
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=marceladj" alt="marceladj" /></a> </p>
+
 ## Estado de la pagina:
 
 Esta web estara constatemente en contruccion, actualmente se encuentra completa la seccion Acerca, Skills, Educacion y contacto. Actualmente se trabaja en la seccion Proyectos.
