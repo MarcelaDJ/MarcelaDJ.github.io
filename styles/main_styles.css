@@ -334,6 +334,7 @@ a:hover {
     grid-template-rows: auto;
     grid-gap: 30px;
     align-items: center;
+    margin: 50px;
 }
 
 .grid-item img {
