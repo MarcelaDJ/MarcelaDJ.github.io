@@ -168,3 +168,11 @@ function seeMoreProjects() {
     moreProjectsBtn_0.style.display = 'none'
     console.log('There are the projects that I\'ve done 🐶')
 }
+
+ 
+
+
+
+
+
+
